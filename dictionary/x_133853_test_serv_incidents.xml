@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Incidents" max_length="40" name="x_133853_test_serv_incidents" type="collection">
+        <element label="Incident ID" max_length="255" name="incidentid" type="string"/>
+        <element display="true" label="Incident Priority" max_length="255" name="incidentpriority" type="glide_list"/>
+        <element label="Incident Summary" max_length="255" name="incidentsummary" type="string"/>
+    </element>
+</database>

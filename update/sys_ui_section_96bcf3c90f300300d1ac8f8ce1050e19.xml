@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="96bcf3c90f300300d1ac8f8ce1050e19" sys_domain="global" table="sys_app" version="3" view="default_user_view">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>77dc37c90f300300d1ac8f8ce1050e5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <text>Application Form Scope Detail</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>7bdc37c90f300300d1ac8f8ce1050e5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <text>Application Form Design and Runtime considerations</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>7fdc37c90f300300d1ac8f8ce1050e5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <text>Application Form Subscription Detail</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>73dc37c90f300300d1ac8f8ce1050e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <text>Application Form Primary Menu Detail</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>77dc37c90f300300d1ac8f8ce1050e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <text>Application Form User Role Detail</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>3bdc37c90f300300d1ac8f8ce1050e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>bbdc37c90f300300d1ac8f8ce1050e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>version</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>3fdc37c90f300300d1ac8f8ce1050e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>bfdc37c90f300300d1ac8f8ce1050e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>77dc37c90f300300d1ac8f8ce1050e5a</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>33dc37c90f300300d1ac8f8ce1050e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>scope</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>b3dc37c90f300300d1ac8f8ce1050e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>scoped_administration</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>37dc37c90f300300d1ac8f8ce1050e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>7bdc37c90f300300d1ac8f8ce1050e5a</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>b7dc37c90f300300d1ac8f8ce1050e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>3bdc37c90f300300d1ac8f8ce1050e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>js_level</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>bbdc37c90f300300d1ac8f8ce1050e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>3fdc37c90f300300d1ac8f8ce1050e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>runtime_access_tracking</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>bfdc37c90f300300d1ac8f8ce1050e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>restrict_table_access</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>33dc37c90f300300d1ac8f8ce1050e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>b3dc37c90f300300d1ac8f8ce1050e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>7fdc37c90f300300d1ac8f8ce1050e5a</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>37dc37c90f300300d1ac8f8ce1050e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>licensable</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>b7dc37c90f300300d1ac8f8ce1050e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>enforce_license</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>3bdc37c90f300300d1ac8f8ce1050e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>license_model</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>bbdc37c90f300300d1ac8f8ce1050e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>73dc37c90f300300d1ac8f8ce1050e5b</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>3fdc37c90f300300d1ac8f8ce1050e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>menu</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>bfdc37c90f300300d1ac8f8ce1050e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>77dc37c90f300300d1ac8f8ce1050e5b</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>33dc37c90f300300d1ac8f8ce1050e5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_role</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>b3dc37c90f300300d1ac8f8ce1050e5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>37dc37c90f300300d1ac8f8ce1050e5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>logo</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:41</sys_created_on>
+            <sys_id>b7dc37c90f300300d1ac8f8ce1050e5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_app" sys_domain="global" view="0ebcfb090f300300d1ac8f8ce1050e2e">96bcf3c90f300300d1ac8f8ce1050e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_app</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-24 05:59:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96bcf3c90f300300d1ac8f8ce1050e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_app</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Test Service Management" source="x_133853_test_serv">593e27010f300300d1ac8f8ce1050e1e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Test Service Management">593e27010f300300d1ac8f8ce1050e1e</sys_scope>
+            <sys_update_name>sys_ui_section_96bcf3c90f300300d1ac8f8ce1050e19</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-24 05:59:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default User View" name="default_user_view">0ebcfb090f300300d1ac8f8ce1050e2e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
