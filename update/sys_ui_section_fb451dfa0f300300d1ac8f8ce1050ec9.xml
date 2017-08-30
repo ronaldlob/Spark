@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Details" section_id="fb451dfa0f300300d1ac8f8ce1050ec9" sys_domain="global" table="x_133853_test_serv_incidents" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>incidentsummary</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-29 04:16:57</sys_created_on>
+            <sys_id>7b455dfa0f300300d1ac8f8ce1050efb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Details" display_value="Details" name="x_133853_test_serv_incidents" sys_domain="global" view="Default view">fb451dfa0f300300d1ac8f8ce1050ec9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-29 04:16:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_incidentdescription_1</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-29 04:16:57</sys_created_on>
+            <sys_id>fb455dfa0f300300d1ac8f8ce1050efb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Details" display_value="Details" name="x_133853_test_serv_incidents" sys_domain="global" view="Default view">fb451dfa0f300300d1ac8f8ce1050ec9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-29 04:16:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Details</caption>
+            <header>false</header>
+            <name>x_133853_test_serv_incidents</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-29 04:16:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb451dfa0f300300d1ac8f8ce1050ec9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Test Service Management" source="x_133853_test_serv">593e27010f300300d1ac8f8ce1050e1e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Test Service Management">593e27010f300300d1ac8f8ce1050e1e</sys_scope>
+            <sys_update_name>sys_ui_section_fb451dfa0f300300d1ac8f8ce1050ec9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-29 04:16:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

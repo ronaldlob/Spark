@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Incidents" max_length="40" name="x_133853_test_serv_incidents" type="collection">
-        <element label="Incident ID" max_length="255" name="incidentid" type="string"/>
-        <element display="true" label="Incident Priority" max_length="255" name="incidentpriority" type="glide_list"/>
+    <element attributes="hasLabels=true" audit="true" label="Incidents" max_length="40" name="x_133853_test_serv_incidents" type="collection">
+        <element label="Incident ID" max_length="255" name="incidentid" read_only="true" type="string"/>
+        <element display="true" label="Incident Priority" mandatory="true" max_length="255" name="incidentpriority" reference="dl_problem_priority" type="glide_list"/>
         <element label="Incident Summary" max_length="255" name="incidentsummary" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Low" label="New Choice" mandatory="true" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element label="-TBDVALUE-Low" sequence="0"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Test List" max_length="1024" name="u_glide_list_3" reference="fx_rate" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Incident Description" max_length="40" name="u_incidentdescription_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Priority" mandatory="true" max_length="40" name="u_incidentpriority_2" type="string">
+            <choice/>
+        </element>
+        <element attributes="base_start=true" label="New Table Name" max_length="80" name="u_table_name_4" type="table_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Work Log" max_length="4000" name="u_worklog" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Work Log" max_length="1024" name="worklog" reference="wf_workflow" type="glide_list"/>
     </element>
 </database>
