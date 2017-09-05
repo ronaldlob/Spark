@@ -5,13 +5,13 @@
             <element>u_worklog</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-30 05:13:44</sys_created_on>
-            <sys_id>e1eb660b0f300300d1ac8f8ce1050edf</sys_id>
+            <sys_created_on>2017-09-01 04:21:39</sys_created_on>
+            <sys_id>4a2338bb0f300300d1ac8f8ce1050e3a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Work Log" display_value="Work Log" name="x_133853_test_serv_incidents" sys_domain="global" view="Default view">7dedd9fe0f300300d1ac8f8ce1050e69</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-30 05:13:44</sys_updated_on>
+            <sys_updated_on>2017-09-01 04:21:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,41 @@
             <element>activity.xml</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-30 05:13:45</sys_created_on>
-            <sys_id>65eb660b0f300300d1ac8f8ce1050edf</sys_id>
+            <sys_created_on>2017-09-01 04:21:39</sys_created_on>
+            <sys_id>022338bb0f300300d1ac8f8ce1050e3b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Work Log" display_value="Work Log" name="x_133853_test_serv_incidents" sys_domain="global" view="Default view">7dedd9fe0f300300d1ac8f8ce1050e69</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-30 05:13:45</sys_updated_on>
+            <sys_updated_on>2017-09-01 04:21:39</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-01 04:21:39</sys_created_on>
+            <sys_id>062338bb0f300300d1ac8f8ce1050e3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Log" display_value="Work Log" name="x_133853_test_serv_incidents" sys_domain="global" view="Default view">7dedd9fe0f300300d1ac8f8ce1050e69</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-01 04:21:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element/>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-01 04:21:39</sys_created_on>
+            <sys_id>862338bb0f300300d1ac8f8ce1050e3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="add_work_info_formatter">1ab0f47b0f300300d1ac8f8ce1050ea7</sys_ui_formatter>
+            <sys_ui_section caption="Work Log" display_value="Work Log" name="x_133853_test_serv_incidents" sys_domain="global" view="Default view">7dedd9fe0f300300d1ac8f8ce1050e69</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-01 04:21:39</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>

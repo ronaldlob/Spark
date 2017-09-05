@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_glide_list_3" table="x_133853_test_serv_incidents">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_133853_test_serv_test_table_extend">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>no_sort=true,slushbucket_ref_no_expand=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Test List</column_label>
+        <column_label/>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,18 +28,18 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_glide_list_3</element>
+        <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="">glide_list</internal_type>
+        <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
-        <max_length>1024</max_length>
-        <name>x_133853_test_serv_incidents</name>
+        <max_length>40</max_length>
+        <name>x_133853_test_serv_test_table_extend</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="fx_rate">fx_rate</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -46,16 +51,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-08-30 05:05:25</sys_created_on>
-        <sys_id>63f9e2c70f300300d1ac8f8ce1050e46</sys_id>
+        <sys_created_on>2017-08-30 05:33:43</sys_created_on>
+        <sys_id>ca70b68b0f300300d1ac8f8ce1050e74</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Test List</sys_name>
+        <sys_name>x_133853_test_serv_test_table_extend</sys_name>
         <sys_package display_value="Test Service Management" source="x_133853_test_serv">593e27010f300300d1ac8f8ce1050e1e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Test Service Management">593e27010f300300d1ac8f8ce1050e1e</sys_scope>
-        <sys_update_name>sys_dictionary_x_133853_test_serv_incidents_u_glide_list_3</sys_update_name>
+        <sys_update_name>sys_dictionary_x_133853_test_serv_test_table_extend_null</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-30 05:05:25</sys_updated_on>
+        <sys_updated_on>2017-08-30 05:33:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
