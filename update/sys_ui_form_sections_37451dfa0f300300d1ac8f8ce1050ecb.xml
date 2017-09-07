@@ -57,6 +57,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-08-29 04:54:29</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-07 03:10:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>686c1b250f010300d1ac8f8ce1050ec3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_133853_test_serv_incidents" name="x_133853_test_serv_incidents" sys_domain="global" view="Default view">37451dfa0f300300d1ac8f8ce1050ecb</sys_ui_form>
+            <sys_ui_section caption="Relationships" display_value="Relationships" name="x_133853_test_serv_incidents" sys_domain="global" view="Default view">e46c1b250f010300d1ac8f8ce1050ebf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-07 03:10:23</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_133853_test_serv_incidents</name>
             <roles/>

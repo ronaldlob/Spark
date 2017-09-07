@@ -4,13 +4,15 @@
         <element display="true" label="Incident Priority" mandatory="true" max_length="255" name="incidentpriority" reference="dl_problem_priority" type="glide_list"/>
         <element label="Incident Summary" max_length="255" name="incidentsummary" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Incident ID" max_length="40" name="number" read_only="true" type="string"/>
-        <element choice="3" default="Assigned" label="Status" mandatory="true" max_length="255" name="statustatus" type="string">
+        <element choice="3" default="-- New choice -Assigned-" label="Status" mandatory="true" max_length="255" name="statustatus" type="string">
             <choice>
                 <element label="Assigned" sequence="0" value="-- New choice -Assigned-"/>
                 <element label="Work In Progress" sequence="1" value="Work In Progress"/>
                 <element label="Resolved" sequence="2" value="Resolved"/>
             </choice>
         </element>
+        <element label="Assigned Group" max_length="32" name="u_assignedgroup" reference="sys_user_group" type="reference"/>
+        <element dependent="u_assignedgroup" dependent_on_field="u_assignedgroup" label="Assigned To" max_length="32" name="u_assignedto" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element label="Company" mandatory="true" max_length="32" name="u_company" reference="core_company" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Incident Description" max_length="4000" name="u_incidentdescription_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Low" label="Priority" mandatory="true" max_length="40" name="u_incidentpriority_2" type="string">
@@ -28,7 +30,13 @@
             <element name="u_requester"/>
         </index>
         <index name="index2">
+            <element name="u_assignedto"/>
+        </index>
+        <index name="index3">
             <element name="u_company"/>
+        </index>
+        <index name="index4">
+            <element name="u_assignedgroup"/>
         </index>
     </element>
 </database>
