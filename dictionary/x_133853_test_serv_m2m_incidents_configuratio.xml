@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Test Serv M2m Incidents Configuratio" max_length="40" name="x_133853_test_serv_m2m_incidents_configuratio" type="collection">
+        <element label="Configuration Item" max_length="32" name="configuration_item" reference="cmdb_ci" type="reference"/>
+        <element label="Incidents" max_length="32" name="incidents" reference="x_133853_test_serv_incidents" type="reference"/>
+        <index name="index">
+            <element name="configuration_item"/>
+        </index>
+        <index name="index2">
+            <element name="incidents"/>
+        </index>
+    </element>
+</database>

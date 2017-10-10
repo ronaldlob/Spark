@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>true</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_133853_test_serv_incidents</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_133853_test_serv_incidents">u_requesterISNOTEMPTY^EQ<item endquery="false" field="u_requester" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Populate Requester Details</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[// Script used to get the requester details from sys_user and set some fields on the Incident form with the user details.
+// Execution on form load so even if details change they are display only so will render at runtime. 
+
+(function executeRule(current, previous /*null when async*/) {
+	
+	// Populate scratchpad with Requester details for display before form rendering
+	
+	g_scratchpad.firstname = current.u_requester.first_name;
+	g_scratchpad.lastname = current.u_requester.last_name;
+	g_scratchpad.emailaddress = current.u_requester.email;
+	g_scratchpad.phone = current.u_requester.mobile_phone;
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-11 05:54:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dcb360c30f410300d1ac8f8ce1050eb5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Populate Requester Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Test Service Management" source="x_133853_test_serv">593e27010f300300d1ac8f8ce1050e1e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test Service Management">593e27010f300300d1ac8f8ce1050e1e</sys_scope>
+        <sys_update_name>sys_script_dcb360c30f410300d1ac8f8ce1050eb5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-12 04:48:23</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=dcb360c30f410300d1ac8f8ce1050eb5"/>
+</record_update>

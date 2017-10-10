@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>Generate an event when an incident is assigned to a new Assigned Group</description>
+        <event_name>x_133853_test_serv.NotifyAssignedGroup</event_name>
+        <fired_by>Workflow - Incident Assigned Group New Ticket Notification</fired_by>
+        <queue/>
+        <suffix>NotifyAssignedGroup</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-03 02:46:02</sys_created_on>
+        <sys_id>7bdf85820f210300d1ac8f8ce1050efb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_133853_test_serv.NotifyAssignedGroup</sys_name>
+        <sys_package display_value="Test Service Management" source="x_133853_test_serv">593e27010f300300d1ac8f8ce1050e1e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test Service Management">593e27010f300300d1ac8f8ce1050e1e</sys_scope>
+        <sys_update_name>sysevent_register_7bdf85820f210300d1ac8f8ce1050efb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-03 02:46:02</sys_updated_on>
+        <table>x_133853_test_serv_incidents</table>
+    </sysevent_register>
+</record_update>

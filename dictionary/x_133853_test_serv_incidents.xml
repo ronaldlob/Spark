@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element attributes="hasLabels=true" audit="true" label="Incidents" max_length="40" name="x_133853_test_serv_incidents" type="collection">
-        <element display="true" label="Incident Priority" mandatory="true" max_length="255" name="incidentpriority" reference="dl_problem_priority" type="glide_list"/>
+        <element label="Incident Priority" mandatory="true" max_length="255" name="incidentpriority" reference="dl_problem_priority" type="glide_list"/>
         <element label="Incident Summary" max_length="255" name="incidentsummary" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Incident ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Incident ID" max_length="40" name="number" read_only="true" type="string"/>
         <element choice="3" default="-- New choice -Assigned-" label="Status" mandatory="true" max_length="255" name="statustatus" type="string">
             <choice>
                 <element label="Assigned" sequence="0" value="-- New choice -Assigned-"/>
                 <element label="Work In Progress" sequence="1" value="Work In Progress"/>
                 <element label="Resolved" sequence="2" value="Resolved"/>
+                <element label="Closed" sequence="3" value="Closed"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_address" read_only="true" type="string"/>
         <element label="Assigned Group" max_length="32" name="u_assignedgroup" reference="sys_user_group" type="reference"/>
         <element dependent="u_assignedgroup" dependent_on_field="u_assignedgroup" label="Assigned To" max_length="32" name="u_assignedto" reference="sys_user" type="reference" use_dependent_field="true"/>
-        <element label="Company" mandatory="true" max_length="32" name="u_company" reference="core_company" type="reference"/>
+        <element label="Category" mandatory="true" max_length="32" name="u_category" reference="sc_category" type="reference"/>
+        <element label="Company" mandatory="true" max_length="32" name="u_company" reference="core_company" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_requester" dependent_on_field="u_requester" label="Email Address" max_length="40" name="u_emailaddress" read_only="true" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_firstname" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Incident Description" max_length="4000" name="u_incidentdescription_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Low" label="Priority" mandatory="true" max_length="40" name="u_incidentpriority_2" type="string">
             <choice>
@@ -22,20 +27,32 @@
                 <element label="High" sequence="2" value="High"/>
             </choice>
         </element>
+        <element dependent="u_type" dependent_on_field="u_type" label="Item" mandatory="true" max_length="32" name="u_item" reference="pc_product_cat_item" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_lastname" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_phone" read_only="true" type="string"/>
         <element dependent="u_company" dependent_on_field="u_company" label="Requester" mandatory="true" max_length="32" name="u_requester" reference="sys_user" type="reference" use_dependent_field="true"/>
-        <element attributes="base_start=true" label="New Table Name" max_length="80" name="u_table_name_4" type="table_name"/>
+        <element dependent="u_category" dependent_on_field="u_category" label="Type" mandatory="true" max_length="32" name="u_type" reference="content_type" type="reference" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Work Log" max_length="4000" name="u_worklog" type="string"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Work Log" max_length="1024" name="worklog" reference="wf_workflow" type="glide_list"/>
         <index name="index">
-            <element name="u_requester"/>
+            <element name="u_category"/>
         </index>
         <index name="index2">
-            <element name="u_assignedto"/>
+            <element name="u_requester"/>
         </index>
         <index name="index3">
-            <element name="u_company"/>
+            <element name="u_assignedto"/>
         </index>
         <index name="index4">
+            <element name="u_type"/>
+        </index>
+        <index name="index5">
+            <element name="u_company"/>
+        </index>
+        <index name="index6">
+            <element name="u_item"/>
+        </index>
+        <index name="index7">
             <element name="u_assignedgroup"/>
         </index>
     </element>

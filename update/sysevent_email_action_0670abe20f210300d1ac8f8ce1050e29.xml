@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_133853_test_serv_incidents</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>x_133853_test_serv.NotifyAssignee</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>true</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>An incident has been assigned to you.</p>
+<p>Number: ${number}</p>
+<p>Priority: ${incidentpriority}</p>
+<p>Requester:&nbsp; ${u_requester}</p>
+<p>Summary: ${incidentsummary}</p>
+<p>Details:</p>
+<p>${u_incidentdescription_1}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Notify Assignee</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>[${number}] A ${incidentpriority} priority incident has been assigned to you.</subject>
+        <subscribable>true</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-05 02:33:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0670abe20f210300d1ac8f8ce1050e29</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Notify Assignee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Test Service Management" source="x_133853_test_serv">593e27010f300300d1ac8f8ce1050e1e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test Service Management">593e27010f300300d1ac8f8ce1050e1e</sys_scope>
+        <sys_update_name>sysevent_email_action_0670abe20f210300d1ac8f8ce1050e29</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-05 02:41:14</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="incident.header.comments.details">fcaae005d751120035ae23c7ce61037a</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

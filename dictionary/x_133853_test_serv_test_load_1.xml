@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Test Load 1" max_length="40" name="x_133853_test_serv_test_load_1" type="collection">
+        <element attributes="import_attribute_name=Assigned Group,edge_encryption_enabled=true" label="Assigned Group" max_length="40" name="u_assigned_group" type="string"/>
+        <element attributes="import_attribute_name=Assigned To,edge_encryption_enabled=true" label="Assigned To" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="import_attribute_name=Company,edge_encryption_enabled=true" label="Company" max_length="40" name="u_company" type="string"/>
+        <element attributes="import_attribute_name=Description,edge_encryption_enabled=true" label="Description" max_length="102" name="u_description" type="string"/>
+        <element attributes="import_attribute_name=Priority,edge_encryption_enabled=true" label="Priority" max_length="40" name="u_priority" type="string"/>
+        <element attributes="import_attribute_name=Requester,edge_encryption_enabled=true" label="Requester" max_length="40" name="u_requester" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Summary,edge_encryption_enabled=true" label="Summary" max_length="40" name="u_summary" type="string"/>
+    </element>
+</database>

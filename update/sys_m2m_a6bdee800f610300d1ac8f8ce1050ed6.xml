@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>cmdb_ci</from_table>
+        <m2m_from_field>configuration_item</m2m_from_field>
+        <m2m_from_label>Related Incidents</m2m_from_label>
+        <m2m_table>x_133853_test_serv_m2m_incidents_configuratio</m2m_table>
+        <m2m_to_field>incidents</m2m_to_field>
+        <m2m_to_label>Impacted CIs</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-27 04:28:54</sys_created_on>
+        <sys_id>a6bdee800f610300d1ac8f8ce1050ed6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_133853_test_serv_m2m_incidents_configuratio</sys_name>
+        <sys_package display_value="Test Service Management" source="x_133853_test_serv">593e27010f300300d1ac8f8ce1050e1e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test Service Management">593e27010f300300d1ac8f8ce1050e1e</sys_scope>
+        <sys_update_name>sys_m2m_a6bdee800f610300d1ac8f8ce1050ed6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-27 04:28:54</sys_updated_on>
+        <to_table>x_133853_test_serv_incidents</to_table>
+    </sys_m2m>
+</record_update>

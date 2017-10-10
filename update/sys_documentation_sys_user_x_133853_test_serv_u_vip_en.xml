@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_133853_test_serv_u_vip" label="VIP" language="en" table="sys_user">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_133853_test_serv_u_vip</element>
+            <help/>
+            <hint/>
+            <label>VIP</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <plural>VIPs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-14 03:58:58</sys_created_on>
+            <sys_id>60aaa33b0f010300d1ac8f8ce1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>VIP</sys_name>
+            <sys_package display_value="Test Service Management" source="x_133853_test_serv">593e27010f300300d1ac8f8ce1050e1e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Test Service Management">593e27010f300300d1ac8f8ce1050e1e</sys_scope>
+            <sys_update_name>sys_documentation_sys_user_x_133853_test_serv_u_vip_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-14 03:58:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

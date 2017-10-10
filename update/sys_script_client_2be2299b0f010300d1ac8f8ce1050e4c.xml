@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Retrieves data from service side g_stratchpad script passed to client and uses it populate display only requester fields.</description>
+        <field>u_address</field>
+        <global>true</global>
+        <messages/>
+        <name>On Load - Set Requester Details</name>
+        <order/>
+        <script><![CDATA[// On Load - Retrieves data from service side g_stratchpad script passed to client and uses it populate display only requester fields.
+
+function onLoad() {
+	jslog("Incident: Searching for g_scratchpad data");
+	
+	if(g_scratchpad.firstname) {
+	  jslog("Incident: Found g_scratchpad.firstname = " + g_scratchpad.firstname);	
+	  g_form.setValue('u_firstname',g_scratchpad.firstname); 
+	}
+	
+	if(g_scratchpad.lastname) {
+	  jslog("Incident: Found g_scratchpad.lastname = " + g_scratchpad.lastname);	
+	  g_form.setValue('u_lastname',g_scratchpad.lastname); 
+	}
+	
+	if(g_scratchpad.emailaddress) {
+	  jslog("Incident: Found g_scratchpad.emailaddress = " + g_scratchpad.emailaddress);	
+	  g_form.setValue('u_emailaddress',g_scratchpad.emailaddress); 
+	}
+	
+	if(g_scratchpad.phone) {
+	  jslog("Incident: Found g_scratchpad.phone = " + g_scratchpad.phone);	
+	  g_form.setValue('u_phone',g_scratchpad.phone); 
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-12 04:54:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2be2299b0f010300d1ac8f8ce1050e4c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>On Load - Set Requester Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Test Service Management" source="x_133853_test_serv">593e27010f300300d1ac8f8ce1050e1e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test Service Management">593e27010f300300d1ac8f8ce1050e1e</sys_scope>
+        <sys_update_name>sys_script_client_2be2299b0f010300d1ac8f8ce1050e4c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-13 03:56:28</sys_updated_on>
+        <table>x_133853_test_serv_incidents</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

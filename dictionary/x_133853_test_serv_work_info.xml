@@ -2,6 +2,10 @@
 <database>
     <element label="Work Info" max_length="40" name="x_133853_test_serv_work_info" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Work Info ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Related Incident" max_length="32" name="u_related_incident" reference="x_133853_test_serv_incidents" type="reference"/>
         <element label="Work Info" max_length="4000" name="work_info" type="string"/>
+        <index name="index">
+            <element name="u_related_incident"/>
+        </index>
     </element>
 </database>

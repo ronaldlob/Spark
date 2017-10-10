@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Close Resolved Incidents</name>
+        <run_as display_value="Ronald Lob">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>7</run_dayofweek>
+        <run_period/>
+        <run_start>2017-10-02 02:48:09</run_start>
+        <run_time>1970-01-01 14:00:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[var resolvedINCs = new GlideRecord('x_133853_test_serv_incidents');
+
+gs.info("Starting Scheduled Script to Resolve Closed Incidents");
+
+resolvedINCs.addQuery('sys_id', '=', "bbb71b930f300300d1ac8f8ce1050e23");
+resolvedINCs.query();
+gs.info("Found " + resolvedINCs.getRowCount() + " records to Close.");
+
+while(resolvedINCs.next()){
+		gs.info("What is the Status value: " + resolvedINCs.statusstatus);
+		gs.info("Closing Resolved Incident: " + resolvedINCs.sys_id);
+	
+		resolvedINCs.statusstatus = "Closed";
+		resolvedINCs.update();
+		
+		//Creating an Event for each closed record as this will be used for Notifications to the requester
+		gs.eventQueue('x_133853_test_serv.CloseResolvedIncident',resolvedINCs,resolvedINCs.sys_id,gs.getUserName());
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-02 02:57:35</sys_created_on>
+        <sys_id>e60784750f210300d1ac8f8ce1050e7b</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Close Resolved Incidents</sys_name>
+        <sys_package display_value="Test Service Management" source="x_133853_test_serv">593e27010f300300d1ac8f8ce1050e1e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test Service Management">593e27010f300300d1ac8f8ce1050e1e</sys_scope>
+        <sys_update_name>sysauto_script_e60784750f210300d1ac8f8ce1050e7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-04 03:12:24</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

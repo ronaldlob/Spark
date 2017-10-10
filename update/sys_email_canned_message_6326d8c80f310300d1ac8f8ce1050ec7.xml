@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_canned_message">
+    <sys_email_canned_message action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <body><![CDATA[<p>Test 3</p>]]></body>
+        <group/>
+        <sys_class_name>sys_email_canned_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-09 03:40:53</sys_created_on>
+        <sys_id>6326d8c80f310300d1ac8f8ce1050ec7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test 3</sys_name>
+        <sys_package display_value="Test Service Management" source="x_133853_test_serv">593e27010f300300d1ac8f8ce1050e1e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test Service Management">593e27010f300300d1ac8f8ce1050e1e</sys_scope>
+        <sys_update_name>sys_email_canned_message_6326d8c80f310300d1ac8f8ce1050ec7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-09 03:40:53</sys_updated_on>
+        <title>Test 3</title>
+        <user display_value="Ronald Lob">6816f79cc0a8016401c5a33be04be441</user>
+    </sys_email_canned_message>
+</record_update>
